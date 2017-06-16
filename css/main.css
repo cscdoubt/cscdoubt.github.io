@@ -1678,7 +1678,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d54fff;
+  background: #ffc7ed;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2853,5 +2853,5 @@ pre .javascript .function {
   }
 }
 #yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn {
-  color: #000;
+  background-color: #000;
 }
