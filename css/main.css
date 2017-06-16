@@ -1678,7 +1678,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fea4d6;
+  background: #d54fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2851,4 +2851,7 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn {
+  color: #000;
 }
