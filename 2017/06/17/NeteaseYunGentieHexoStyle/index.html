@@ -100,7 +100,7 @@
 <meta property="og:url" content="http://www.zhangxiaoyu.me/2017/06/17/NeteaseYunGentieHexoStyle/index.html">
 <meta property="og:site_name" content="Xiaoyu&#39;s Blog">
 <meta property="og:description" content="网易自带的云跟帖颜色太鲜艳了，跟Hexo Next主题实在是不搭，可以用本文方法调整一下颜色与边框样式，调整后的样子见文章下方留言框即可。">
-<meta property="og:updated_time" content="2017-06-17T10:38:55.000Z">
+<meta property="og:updated_time" content="2017-06-17T10:42:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网易云跟帖适配Hexo Next主题样式调整">
 <meta name="twitter:description" content="网易自带的云跟帖颜色太鲜艳了，跟Hexo Next主题实在是不搭，可以用本文方法调整一下颜色与边框样式，调整后的样子见文章下方留言框即可。">
@@ -376,8 +376,9 @@
       
 
       
-        <h3 id="Hexo添加网易云跟帖"><a href="#Hexo添加网易云跟帖" class="headerlink" title="Hexo添加网易云跟帖"></a>Hexo添加网易云跟帖</h3><p>在<a href="https://manage.gentie.163.com/" target="_blank" rel="external">网易云跟帖</a>中注册并添加网站信息以后，在获取代码-WEB代码中找到productKey: “766a201897584a4aae79604bf…”。<br>在Hexo Next主题配置文件中，搜索gentie_productKey，修改为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># blog/themes/next/_config.yml</div><div class="line"># Gentie productKey</div><div class="line">gentie_productKey: 766a201897584a4aae79604bf... //此处为网易云跟帖提供的productKey</div></pre></td></tr></table></figure></p>
-<p>此处比较简单，详细图文请见本文尾部引用。</p>
+        <h3 id="Hexo添加网易云跟帖"><a href="#Hexo添加网易云跟帖" class="headerlink" title="Hexo添加网易云跟帖"></a>Hexo添加网易云跟帖</h3><p>在<a href="https://manage.gentie.163.com/" target="_blank" rel="external">网易云跟帖</a>中注册并添加网站信息以后，在”获取代码”-&gt;”WEB代码”中找到<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">...</div><div class="line">productKey: &quot;766a201897584a4aae79604bf...&quot;,</div><div class="line">...</div></pre></td></tr></table></figure></p>
+<p>在Hexo Next主题配置文件中，搜索”gentie_productKey”，修改为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># blog/themes/next/_config.yml</div><div class="line"># Gentie productKey</div><div class="line">gentie_productKey: 766a201897584a4aae79604bf... //此处为网易云跟帖提供的productKey</div></pre></td></tr></table></figure></p>
+<p>之后hexo d部署即可。<br>此处图文详情请见本文尾部引用，不再赘述。</p>
 <h3 id="CSS添加位置"><a href="#CSS添加位置" class="headerlink" title="CSS添加位置"></a>CSS添加位置</h3><blockquote>
 <p>Hexo Next主题自定义CSS文件位置：blog/themes/next/source/css/_custom/custom.styl </p>
 </blockquote>
