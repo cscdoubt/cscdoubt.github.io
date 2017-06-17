@@ -1678,7 +1678,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff09d;
+  background: #6affac;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2869,6 +2869,9 @@ pre .javascript .function {
 }
 #yun-tie-sdk-wrap .tie-title-bar .active-wrap .tie-actCount {
   color: #000 !important;
+}
+#yun-tie-sdk-wrap .tie-title-bar .tie-title {
+  font-size: 16px !important;
 }
 #yun-tie-sdk-wrap .input-box {
   border-radius: 0px !important;
