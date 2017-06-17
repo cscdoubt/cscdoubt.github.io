@@ -1678,7 +1678,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffec;
+  background: #fff09d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2861,12 +2861,22 @@ pre .javascript .function {
 #yun-tie-sdk-wrap .input-box .tie-submit-row .user-info .nickname {
   color: #fc6423 !important;
 }
+#yun-tie-sdk-wrap .single-tie .tie-author .name-nick {
+  color: #fc6423 !important;
+}
 #yun-tie-sdk-wrap .input-box.z-fcs {
   border-color: #000 !important;
 }
-#yun-tie-sdk-wrap .input-box .tie-submit-row .user-info .nickname {
-  color: #fc6423 !important;
-}
 #yun-tie-sdk-wrap .tie-title-bar .active-wrap .tie-actCount {
-  color: #000;
+  color: #000 !important;
+}
+#yun-tie-sdk-wrap .input-box {
+  border-radius: 0px !important;
+}
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.comments {
+  margin: 60px 0px 0 !important;
 }
